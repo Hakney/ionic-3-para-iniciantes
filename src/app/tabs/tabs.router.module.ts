@@ -16,21 +16,23 @@ const routes: Routes = [
           }
         ]
       },
+      
       {
-        path: 'tab2',
+        path: 'feed',
         children: [
           {
             path: '',
-            loadChildren: '../tab2/tab2.module#Tab2PageModule'
+            loadChildren: '../feed/feed.module#FeedPageModule'
           }
         ]
       },
+      
       {
-        path: 'tab3',
+        path: 'intro',
         children: [
           {
             path: '',
-            loadChildren: '../tab3/tab3.module#Tab3PageModule'
+            loadChildren: '../intro/intro.module#IntroPageModule'
           }
         ]
       },
